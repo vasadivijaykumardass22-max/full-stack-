@@ -1,0 +1,50 @@
+body {
+font-family: Arial, sans-serif;
+line-height: 1.5;
+padding: 20px;
+}
+header {
+background: #282c34;
+color: var(--heading-color, #ff6b6b);
+padding: 20px;
+text-align: center;
+margin-bottom: 20px;
+}
+.action-button {
+padding: 10px 20px;
+margin: 10px 5px;
+cursor: pointer;
+background: #007bff;
+color: var(--heading-color, #ff6b6b);
+border: none;
+border-radius: 5px;
+}
+.action-button:hover {
+background: #0056b3;
+}
+.display-area {
+margin-top: 20px;
+padding: 20px;
+border: 1px solid #ccc;
+text-align: center;
+min-height: 150px;
+}
+img {
+max-width: 100%;
+}
+@keyframes pulse {
+0%, 100% {
+transform: scale(1);
+}
+50% {
+transform: scale(1.2);
+}
+}
+.animated-box 
+{
+width: 100px;
+height: 100px;
+background: lightgreen;
+animation: pulse 1.5s infinite;
+margin: 20px auto;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DOM Manipulation Demo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>DOM Manipulation Demo</h1>
+
+        <p>
+            Visitor Count:
+            <span id="visitorCount">0</span>
+        </p>
+    </header>
+
+
+    <!-- Dynamic Content Display -->
+    <section>
+        <h2>Dynamic Content Display</h2>
+
+        <button class="action-button"
+                onclick="displayType('Text')">
+            Show Text
+        </button>
+
+        <button class="action-button"
+                onclick="displayType('Image')">
+            Show Image
+        </button>
+
+        <button class="action-button"
+                onclick="displayType('Animation')">
+            Show Animation
+        </button>
+
+        <div id="displayArea" class="display-area"></div>
+    </section>
+
+
+    <!-- Image Toggle -->
+    <section>
+        <h2>Image Toggle</h2>
+
+        <div class="image-container">
+
+            <img id="toggleImage1"
+                 src="/home/vijay/full stack/13-08-26/Pasted image.png"
+                 alt="Faculty 1"
+                 width="200">
+
+            <img id="toggleImage2"
+                 src="/home/vijay/full stack/13-08-26/Pasted image (3).png"
+                 alt="Faculty 2"
+                 width="200">
+
+            <img id="toggleImage3"
+                 src="/home/vijay/full stack/13-08-26/Pasted image (2).png"
+                 alt="Faculty 3"
+                 width="200">
+
+        </div>
+
+        <button class="action-button" id="toggleImageButton">
+            Toggle Image
+        </button>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

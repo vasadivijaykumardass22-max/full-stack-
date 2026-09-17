@@ -1,0 +1,22 @@
+/* Central color overrides for registration theme
+   Edit these variables to change colors across the registration pages. */
+:root {
+  /* Background gradient */
+  --reg-bg-start: #0b1226;
+  --reg-bg-end: #5b21b6;
+
+  /* Primary accents */
+  --accent-1: #ffb86b;
+  --accent-2: #ff6b6b;
+  --primary-accent: #7c4dff;
+
+  /* Heading color used across site */
+  --heading-color: var(--primary-accent);
+
+  /* Text / muted */
+  --text: #073033;
+  --muted: #6b7280;
+
+  /* Button text (override if you want white or dark) */
+  --btn-text: #ffffff;
+}

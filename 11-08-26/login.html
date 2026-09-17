@@ -1,0 +1,68 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_Display</title>
+</head>
+<style>
+*{
+    padding: 5px;
+    margin: 2px;
+}
+    
+.container{
+    display: grid;
+    height: 100vh;
+    grid-column: 33% 33% 34%;
+    grid-row: 10% 10% 80%;
+}
+.head{
+    height: 10vh;
+    background-color: aquamarine;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.search{
+    height: 10vh;
+    background-color: blanchedalmond;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.left{
+height: 80vh;
+    background-color: greenyellow;
+    grid-column:1/2 ;
+    grid-row: 3/4  ;
+}
+.middle{
+    height: 80vh;
+    background-color: pink;
+    grid-column: 2/3;
+    grid-row:3/4 ;
+}
+.right{
+    height: 93vh;
+    background-color: orange;
+    grid-column: 3/4;
+    grid-row: 2/4;
+} 
+</style>
+<body>
+    <div class='container'>
+        <div class='head'> Header<h1> This part belongs to <b>HEADER SECTION</b></h1></div>
+        <div class='search'> Search<input textbox = ""; type= "text":value="Type to search"></textbox></><button type="submit">Search</button></div>
+        <div class='left'> Left <menu>
+            <ol start="1" type="a"><b> <u>Products </u></b>
+<li> Leather Products</li>
+<li> Cosmetics Products</li>
+<li> Agro Products</li>
+<li> Electronic Products</li>
+        
+    </ol>
+    </menu></div>
+        <div class='middle'> Middle</div>
+        <div class='right'> Right</div>
+    </div>
+</body>
+</html>
