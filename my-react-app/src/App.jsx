@@ -1,9 +1,9 @@
 import './App.css';
-import Calculator from './Calculator';
+import StopClock from './StopClock';
 
 function App() {
   return (
-    <Calculator />
+    <StopClock />
   );
 }
 
